@@ -219,20 +219,24 @@ public class Main {
 
 	private static void DuLieuCoSan() {
 
-		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_01", "rau cu qua", 2500, 50, LocalDate.parse("01/01/2010", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_01", "rau cai", 2500, 50, LocalDate.parse("01/01/2010", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_02", "thit ca", 1500, 15, LocalDate.parse("02/02/2012", formatter)));
-		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_03", "thuc an nhanh", 2000, 60, LocalDate.parse("03/03/2013", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_03", "do hop", 20000, 60, LocalDate.parse("03/03/2013", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_04", "gao", 3000, 100, LocalDate.parse("04/04/2014", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Thuc_Pham, "TP_04", "gia vi", 1000, 100, LocalDate.parse("05/05/2015", formatter)));
 
 		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_01", "chen bat", 1200, 3, LocalDate.parse("04/04/2014", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_02", "chau cay", 4500, 6, LocalDate.parse("05/05/2015", formatter)));
-		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_03", "binh tra cac kieu", 7000, 12, LocalDate.parse("06/06/2016", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_03", "binh tra", 7000, 12, LocalDate.parse("06/06/2016", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_03", "noi dat", 5000, 20, LocalDate.parse("07/07/2017", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Sanh_Su, "SS_04", "binh co", 8000, 20, LocalDate.parse("07/07/2017", formatter)));
 
 		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_01", "tu lanh", 8000000, 150, LocalDate.parse("07/07/2017", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_02", "tivi", 5000000, 25, LocalDate.parse("08/08/2018", formatter)));
 		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_03", "may giat", 3500000, 120, LocalDate.parse("09/09/2019", formatter)));
-		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_03", "laptop", 10000000, 50, LocalDate.parse("10/10/2020", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_04", "laptop", 10000000, 50, LocalDate.parse("10/10/2020", formatter)));
+		H_Hoa.add(new HangHoa(Loai.Dien_May, "DM_05", "dien thoai", 3000000, 50, LocalDate.parse("11/11/2021", formatter)));
+		
 	}
 	private static void timKiemTheoKhoangNgay(LocalDate tuNgay, LocalDate denNgay) {
 		List<HangHoa> hangs = new ArrayList<>();
